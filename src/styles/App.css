@@ -1,0 +1,54 @@
+:root {
+  /* fonts */
+  --FontTitle: 'Open Sans Condensed', sans-serif;
+  --FontSubtitle: 'Rosario', sans-serif;
+  --FontText: 'Tenor Sans', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* mockup */
+html {
+  font-size: 62.5%;
+}
+body {
+  padding: 15px;
+  font-size: 1.6rem;
+}
+header {
+  width: 100%;
+}
+h1 {
+  font-size: 2.4rem;
+  font-weight: lighter;
+  font-family: var(--FontTitle);
+}
+h2,
+h3 {
+  font-size: 2.2rem;
+  font-family: var(--FontSubtitle);
+  font-weight: 300;
+}
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  font-family: var(--FontText);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}

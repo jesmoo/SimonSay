@@ -1,0 +1,45 @@
+header {
+  height: 100%;
+}
+.header--section {
+  width: 100%;
+  max-width: 102.4rem;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.section--span {
+  width: 2.6rem;
+  height: 2.3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../assets/icons/paginaInicio.svg');
+  display: block;
+}
+.header--menu {
+  grid-column: 3 / span 2;
+  display: flex;
+  height: 100%;
+}
+.header--menu h3 {
+  margin-left: 1.5rem;
+}
+.donatios--menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.donatios--menu:hover > a {
+  display: block;
+}
+.donatios--coffe {
+  display: none;
+  position: absolute;
+  padding-top: 1rem;
+  left: 0;
+  top: 2rem;
+}
