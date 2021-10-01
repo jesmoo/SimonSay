@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/components/Main.css';
+import '../styles/breakpoints/MainBreakpoints.css';
 const Main = () => {
   return (
     <main className="container__main">
