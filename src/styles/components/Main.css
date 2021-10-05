@@ -42,3 +42,12 @@
   background-color: #ff7f37;
   border: none;
 }
+.hide {
+  display: none;
+}
+.illuminate {
+  background-color: red;
+}
+.illuminatePlayer {
+  background-color: green;
+}
