@@ -1,3 +1,5 @@
+import Swal from 'sweetalert2';
+
 const MAXlEVELS = 7;
 
 class game {
@@ -86,12 +88,23 @@ class game {
     }
   };
   victory = () => {
-    alert('has ganado');
+    Swal.fire({
+      title: 'You won!',
+      text: 'Congratulations, was it luck or will you be able to do it again?',
+      icon: 'success',
+      confirmButtonText: 'Back to play',
+    });
+    this.startGame();
   };
   lost = () => {
     this.startGame();
     this.removeClickEvent();
-    alert('perdio');
+    Swal.fire({
+      title: 'you lost!',
+      text: 'Dont worry, you can continue playing',
+      icon: 'error',
+      confirmButtonText: 'Cool',
+    });
   };
   chooseColor = (e) => {
     const idPlayer = parseInt(e.target.id);
