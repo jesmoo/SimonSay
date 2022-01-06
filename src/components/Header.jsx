@@ -11,9 +11,6 @@ const Header = () => {
             <span className="section--span" title="Go home"></span>
           </a>
           <div className="header--menu">
-            <a href="https://www.jesmoo.xyz/about.html" title="About me">
-              <h3>about</h3>
-            </a>
             <section className="donatios--menu">
               <a href="https://paypal.me/jesmoo?locale.x=es_XC" title="Paypal">
                 <h3>paypal</h3>
